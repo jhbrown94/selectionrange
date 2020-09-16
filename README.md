@@ -1,13 +1,5 @@
 # selectionrange
 
-## Credits
-
-This package is very, very heavily informed by
-[`shadow-selection-polyfill`](https://github.com/GoogleChromeLabs/shadow-selection-polyfill).
- Where that package seeks principally to determine selected text, this one
-attempts to more precisely identify selected DOM elements so that it can be
-safely used with `contenteditable` elements. 
-
 ## The problem
 
 Browsers are inconsistent when a `Selection` includes content that is inside a
@@ -60,3 +52,11 @@ There is no automated testing of the package yet, so there are likely many quirk
 ## Request for feedback
 
 This package is still in alpha.  I'd love any and all reports of field experiences with it.  Finding out that there are actual users will be the best motivation for me to improve it :)
+
+## Credits
+
+This package is very, very heavily informed by
+[`shadow-selection-polyfill`](https://github.com/GoogleChromeLabs/shadow-selection-polyfill).
+ Where that package seeks principally to determine selected text, this one
+attempts to more precisely identify selected DOM elements so that it can be
+safely used with `contenteditable` elements. 
