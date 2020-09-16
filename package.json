@@ -1,10 +1,13 @@
 {
-  "name": "selectionrange",
+  "name": "@jhbrown94/selectionrange",
   "version": "0.1.0",
   "description": "Determine selection range inside of ShadowRoots with uniform API across browsers",
   "main": "selectionrange.js",
   "scripts": {
     "test": "echo \"Sigh: no test specified\""
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "repository": {
     "type": "git",
