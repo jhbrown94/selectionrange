@@ -1,6 +1,6 @@
 {
   "name": "@jhbrown94/selectionrange",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Determine selection range inside of ShadowRoots with uniform API across browsers",
   "main": "selectionrange.js",
   "scripts": {
